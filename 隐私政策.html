@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日一记 隐私政策</title>
+<style>
+  :root { --ink:#2b3a42; --muted:#7a8a92; --line:#e6e2d8; --bg:#faf8f4; --accent:#4a6fa5; }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:0; background:var(--bg); color:var(--ink);
+         font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+         line-height:1.85; font-size:16px; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  h1 { font-size:28px; margin:0 0 8px; letter-spacing:1px; }
+  .meta { color:var(--muted); font-size:14px; margin-bottom:32px; }
+  h2 { font-size:20px; margin:40px 0 14px; padding-left:12px; border-left:4px solid var(--accent); }
+  h3 { font-size:17px; margin:26px 0 10px; }
+  p { margin:10px 0; }
+  ul { margin:10px 0; padding-left:22px; }
+  li { margin:6px 0; }
+  table { width:100%; border-collapse:collapse; margin:16px 0; font-size:15px; background:#fff; }
+  th,td { border:1px solid var(--line); padding:10px 12px; text-align:left; vertical-align:top; }
+  th { background:#f1ede4; font-weight:600; }
+  code { background:#f1ede4; padding:2px 6px; border-radius:4px; font-size:13px;
+         font-family:ui-monospace,SFMono-Regular,Consolas,monospace; word-break:break-all; }
+  .promise { background:#fff; border:1px solid var(--line); border-radius:12px; padding:20px 24px; margin:24px 0; }
+  .promise li { list-style:none; }
+  .promise ul { padding-left:0; }
+  .note { background:#fdf6e8; border-left:4px solid #d9a441; padding:12px 16px; margin:16px 0; border-radius:0 8px 8px 0; }
+  footer { margin-top:56px; padding-top:20px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>每日一记 隐私政策</h1>
+<div class="meta">更新日期：2026年11月17日 &nbsp;|&nbsp; 生效日期：2026年11月17日</div>
+
+<h2>引言</h2>
+<p>「每日一记」（以下简称"本应用"）是一款注重隐私的本地日记应用。我们深知个人信息对您的重要性，并会尽全力保护您的个人信息安全。</p>
+
+<div class="promise">
+<strong>本应用的核心隐私承诺：</strong>
+<ul>
+  <li>✅ <strong>不收集任何个人信息</strong></li>
+  <li>✅ <strong>所有数据仅存储在您的设备本地</strong></li>
+  <li>✅ <strong>无联网权限，无法上传任何数据</strong></li>
+  <li>✅ <strong>无第三方SDK，无广告，无统计</strong></li>
+  <li>✅ <strong>禁止系统云备份，数据不出设备</strong></li>
+</ul>
+</div>
+
+<h2>一、我们收集的信息</h2>
+<p><strong>本应用不收集、存储、传输任何个人信息。</strong>具体而言：</p>
+<table>
+  <tr><th>信息类型</th><th>是否收集</th><th>说明</th></tr>
+  <tr><td>账号信息</td><td>❌ 不收集</td><td>本应用无需注册、无需登录</td></tr>
+  <tr><td>设备信息</td><td>❌ 不收集</td><td>不读取IMEI、MAC地址、设备序列号等</td></tr>
+  <tr><td>位置信息</td><td>❌ 不收集</td><td>无定位权限</td></tr>
+  <tr><td>通讯录</td><td>❌ 不收集</td><td>无通讯录权限</td></tr>
+  <tr><td>相册/相机</td><td>❌ 不收集</td><td>无相关权限</td></tr>
+  <tr><td>剪贴板</td><td>❌ 不收集</td><td>不读取剪贴板内容</td></tr>
+  <tr><td>应用列表</td><td>❌ 不收集</td><td>不读取已安装应用列表</td></tr>
+  <tr><td>使用行为</td><td>❌ 不收集</td><td>无统计SDK，不追踪使用行为</td></tr>
+</table>
+
+<h2>二、数据存储说明</h2>
+<h3>2.1 存储位置</h3>
+<p>您在本应用中创建的所有内容（日记记录、精选标记、提醒设置等）均存储在<strong>您设备的本地数据库</strong>中，路径为应用私有目录：</p>
+<p><code>/data/data/com.dailynote.app/databases/</code></p>
+<p>该目录仅本应用可访问，其他应用无法读取。</p>
+
+<h3>2.2 存储内容</h3>
+<ul>
+  <li><strong>日记记录</strong>：日期、文字内容、精选标记、创建/修改时间</li>
+  <li><strong>应用设置</strong>：提醒开关、提醒时间、提示语、深色模式、字体大小</li>
+</ul>
+
+<h3>2.3 数据安全</h3>
+<ul>
+  <li>本应用已设置 <code>allowBackup="false"</code>，<strong>禁止系统云备份</strong></li>
+  <li>本应用已设置 <code>usesCleartextTraffic="false"</code>，禁止明文网络传输</li>
+  <li>本应用<strong>无 INTERNET 权限</strong>，技术上无法上传任何数据</li>
+</ul>
+
+<h2>三、权限使用说明</h2>
+<p>本应用仅申请以下必要权限，均用于核心功能：</p>
+<table>
+  <tr><th>权限</th><th>用途</th><th>必要性</th></tr>
+  <tr><td><code>POST_NOTIFICATIONS</code></td><td>发送日记提醒通知</td><td>核心功能</td></tr>
+  <tr><td><code>SCHEDULE_EXACT_ALARM</code></td><td>在指定时间精确触发提醒</td><td>核心功能</td></tr>
+  <tr><td><code>USE_EXACT_ALARM</code></td><td>允许使用精确闹钟</td><td>核心功能</td></tr>
+  <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>设备重启后恢复提醒调度</td><td>核心功能</td></tr>
+  <tr><td><code>VIBRATE</code></td><td>提醒时震动</td><td>辅助功能</td></tr>
+  <tr><td><code>REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</code></td><td>引导用户关闭电池优化，确保提醒准时</td><td>辅助功能</td></tr>
+</table>
+<p><strong>本应用不申请以下权限：</strong></p>
+<ul>
+  <li>❌ 网络权限（INTERNET）</li>
+  <li>❌ 定位权限</li>
+  <li>❌ 相机权限</li>
+  <li>❌ 麦克风权限</li>
+  <li>❌ 通讯录权限</li>
+  <li>❌ 短信/通话记录权限</li>
+  <li>❌ 存储卡读取权限（仅通过系统文件选择器访问用户主动选择的文件）</li>
+</ul>
+
+<h2>四、数据备份与恢复</h2>
+<h3>4.1 手动备份</h3>
+<p>您可以通过「数据管理」→「导出备份」功能，将数据导出为 JSON 文件。该文件：</p>
+<ul>
+  <li>仅保存在您选择的本地位置</li>
+  <li>不会上传到任何服务器</li>
+  <li>您可以自由管理、分享或删除该文件</li>
+</ul>
+<h3>4.2 数据恢复</h3>
+<p>您可以通过「数据管理」→「导入备份」功能，从之前导出的 JSON 文件恢复数据。恢复过程完全在本地进行。</p>
+<div class="note"><strong>备份文件说明：</strong>备份文件为纯文本 JSON 格式，包含您的日记内容和设置。<strong>请妥善保管备份文件</strong>，避免泄露个人隐私。</div>
+
+<h2>五、数据删除</h2>
+<table>
+  <tr><th>方式</th><th>操作路径</th><th>影响</th></tr>
+  <tr><td>删除单条记录</td><td>记录详情 → 删除</td><td>仅删除该条记录</td></tr>
+  <tr><td>清空所有数据</td><td>数据管理 → 清空所有数据</td><td>删除全部日记和设置（需二次确认）</td></tr>
+  <tr><td>卸载应用</td><td>系统设置 → 应用管理 → 卸载</td><td>删除应用及全部本地数据</td></tr>
+</table>
+<div class="note"><strong>注意：</strong>卸载应用后，本地数据将被永久删除，无法恢复。请在卸载前导出备份。</div>
+
+<h2>六、第三方服务</h2>
+<p><strong>本应用不使用任何第三方SDK、服务或API。</strong></p>
+<ul>
+  <li>❌ 无广告SDK</li>
+  <li>❌ 无统计SDK（如友盟、TalkingData等）</li>
+  <li>❌ 无推送SDK（如极光、个推等）</li>
+  <li>❌ 无社交分享SDK</li>
+  <li>❌ 无支付SDK</li>
+  <li>❌ 无崩溃收集SDK（如Bugly、Firebase Crashlytics等）</li>
+</ul>
+
+<h2>七、未成年人保护</h2>
+<p>本应用不面向未成年人提供服务，不主动收集未成年人信息。</p>
+<p>由于本应用不收集任何个人信息，未成年人使用本应用时，其数据同样仅存储在本地设备，不会被上传或分享。</p>
+
+<h2>八、隐私政策的更新</h2>
+<p>我们可能会适时对本政策进行修订。当政策发生重大变更时，我们会：</p>
+<ul>
+  <li>在应用内「关于与隐私」页面更新政策文本</li>
+  <li>更新本页面顶部的"更新日期"</li>
+  <li>对于重大变更，我们会在应用内以显著方式通知您</li>
+</ul>
+<p><strong>政策更新不会导致本应用开始收集您的个人信息。</strong>我们的核心隐私承诺（不收集、不上传、不追踪）是永久性的。</p>
+
+<h2>九、如何联系我们</h2>
+<p>如果您对本隐私政策有任何疑问、意见或建议，可以通过以下方式联系我们：</p>
+<ul>
+  <li><strong>开发者</strong>：柴玉坤</li>
+  <li><strong>联系邮箱</strong>：chaiyukun2@163.com</li>
+  <li><strong>应用内反馈</strong>：设置 → 关于与隐私</li>
+</ul>
+<p>我们将在收到您的反馈后尽快回复。</p>
+
+<h2>十、其他</h2>
+<h3>10.1 开源说明</h3>
+<p>本应用为独立开发的本地应用，不依赖任何云端服务。</p>
+<h3>10.2 适用法律</h3>
+<p>本政策的订立、执行和解释及争议的解决均应适用中华人民共和国法律。</p>
+<h3>10.3 政策文本</h3>
+<p>本政策的最新版本始终可在应用内「设置 → 关于与隐私」中查看。</p>
+
+<footer>
+  <p>感谢您信任并使用「每日一记」。我们致力于为您提供一个安全、私密、纯粹的记录空间。</p>
+  <p>本隐私政策最后更新于 2026年11月17日</p>
+</footer>
+
+</div>
+</body>
+</html>
